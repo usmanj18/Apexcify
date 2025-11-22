@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/PFP.png">
+    <link href="style.css"rel="stylesheet">
+    <title>Usman | Portfolio-Web Developer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="left">
+                <span class="U">U</span>sman<span class="U">.</span>
+                <i class="fa-solid fa-list" id="menu"></i>
+                <div class="links">
+                    <a href="/">About</a>
+                    <a href="/">Education</a>
+                    <a href="/">Skills</a>
+                    <a href="/">Projects</a>
+                    <a href="/">Achivements</a>
+                </div>
+            </div>
+            <div class="right"><i class="fa-solid fa-sun" id="dark-mode-toggle"></i></div>
+        </div>
+        <div class="main">
+            <div class="left-main">
+                <div class="picture">
+                    <img src="./assets/picofme.png" alt="Picture" id="main-photo">
+                </div>
+            </div>
+            <div class="right-main">
+                <div class="intro">Hi. I'm <span class="name">Usman Haider</span></div>
+                <span id="element"></span>
+                <div class="desc">Full-Stack Web Developer specializing in building high-performance, responsive, and scalable web applications. I transform complex requirements into clean, efficient code and intuitive user experiences. Let's build something great together.</div>
+                <div class="btns">
+                    <button>Contact Me</button>
+                    <button>My Resume</button>
+                </div>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/usman-haider-698a10334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/usmanj18"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/share/17tBBmrFD6/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/usman_j18?igsh=MThkMzR4NThhcTlhZg=="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer, Software Engineer'],
+      typeSpeed: 50,
+    });
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
