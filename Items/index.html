@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" type="image.png" href="./assets/logo.png">
+  <title>Product Listing</title>
+</head>
+<body>
+
+  <div class="navbar">
+      <div class="logo"><span class="u">U</span>sman.</div>
+
+      <div class="filter-box">
+          <select id="filter">
+              <option value="def">Apply Filter</option>
+              <option value="lowPr">Low Price</option>
+              <option value="highPr">High Price</option>
+              <option value="highSel">High Selling</option>
+          </select>
+      </div>
+  </div>
+
+  <div class="main">
+      <button class="prev"><i class="fa-solid fa-chevron-left"></i></button>
+
+      <div class="card">
+          <div class="img"></div>
+          <div class="desc"></div>
+      </div>
+
+      <button class="next"><i class="fa-solid fa-chevron-right"></i></button>
+  </div>
+
+  <h4 class="page">Product: <span class="nmbr">1</span> of <span class="total">5</span>.</h4>
+
+  <script src="app.js"></script>
+</body>
+</html>

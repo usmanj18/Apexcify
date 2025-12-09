@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+body {
+  background: linear-gradient(135deg, #111, #333);
+  color: white;
+}
+
+.navbar {
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0,0,0,.3);
+}
+
+.logo {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.u {
+  color: orange;
+  font-size: 2rem;
+}
+
+.filter-box select {
+  padding: 8px 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: transparent;
+  color:white;
+}
+
+#filter option{
+    background: rgba(0,0,0,0.4);
+}
+
+.main {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev, .next {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,0.15);
+  color: white;
+  cursor: pointer;
+  font-size: 1.4rem;
+  backdrop-filter: blur(5px);
+  transition: .3s;
+  margin:30px;
+}
+
+.prev:hover, .next:hover {
+  background: white;
+  color: black;
+}
+
+.card {
+  height: 420px;
+  width: 310px;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  transition: .3s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.img {
+  height: 65%;
+  width: 100%;
+}
+
+.desc {
+  height: 35%;
+  padding: 15px;
+}
+
+.desc h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.desc button {
+  margin-top: 8px;
+  padding: 8px 15px;
+  background: orange;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.desc button:hover {
+  background: rgb(255, 180, 40);
+}
+
+.page {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
